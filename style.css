@@ -1,0 +1,127 @@
+body{
+    background-color: green;
+   font-family: sans-serif;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30%;
+}
+h1{
+    flex-wrap: wrap;
+    font-size: 65px;
+    color: white;
+    margin-left: 5%;
+}
+#count-el{
+    font-size: 80px;
+    margin-top:40px ;
+    margin-left: 5%;
+}
+
+#increment-btn {
+    margin-bottom: 20px;
+    height: 8vh;
+    width: 20vw;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-color: red;
+}
+#decrease{
+    height: 7vh;
+    width: 20vw;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-color: blue;
+}
+
+#save{
+    margin-top: 2rem;
+    width: 20vw;
+    height: 8vh;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(89, 255, 0);
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    transform: translateX(80px);
+   
+}
+@media screen and (max-width:768px){
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30%;
+}
+h1{
+    flex-wrap: wrap;
+    font-size: 50px;
+    color: white;
+    margin-left: 5%;
+}
+#count-el{
+    font-size: 80px;
+    margin-top:40px ;
+    margin-left: 5%;
+}
+
+#increment-btn {
+    margin-bottom: 20px;
+    height: 8vh;
+    width: 70vw;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-color: red;
+}
+#decrease{
+    height: 7vh;
+    width: 70vw;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-color: blue;
+}
+
+#save{
+    margin-top: 2rem;
+    width: 70vw;
+    height: 8vh;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(89, 255, 0);
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    transform: translateX(30px);
+}
+
+}
